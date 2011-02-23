@@ -6,7 +6,7 @@ h2. Shut up, SQLite!
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 </pre>
 
-Hate it when the above useless message fills up big portions of your Rails development.log?
+Hate it when the above useless message fills up big portions of your Rails development log?
 
 Me too! This plugin filters them out, but still logs all other SQL queries normally.
 
