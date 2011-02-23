@@ -1,0 +1,1 @@
+require 'shutup_sqlite'
