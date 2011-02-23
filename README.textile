@@ -1,6 +1,14 @@
 h2. Shut up, SQLite!
 
-Hate all those log messages in your Rails app griping about sqlite_sequence and sqlite_master? Me too!
+<pre>
+ SQL (6.0ms)    SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+</pre>
+
+Hate it when the above useless message fills up big portions of your Rails development.log?
+
+Me too! This plugin filters them out, but still logs all other SQL queries normally.
 
 h2. Installation
 
