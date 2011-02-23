@@ -1,0 +1,13 @@
+h2. Shut up, SQLite!
+
+Hate all those log messages in your Rails app griping about sqlite_sequence and sqlite_master? Me too!
+
+h2. Installation
+
+h3. Rails 2.3.x
+
+@./script/plugin install git://github.com/DavidMikeSimon/shutup_sqlite.git@
+
+h3. Rails 3.0
+
+@rails plugin install git://github.com/DavidMikeSimon/shutup_sqlite.git@
