@@ -19,3 +19,5 @@ h3. Rails 2.3.x
 h3. Rails 3.0
 
 @rails plugin install git://github.com/DavidMikeSimon/shutup_sqlite.git@
+
+Current version is 0.1
