@@ -1,6 +1,10 @@
 class ActiveRecord::ConnectionAdapters::SQLiteAdapter
   # Aaaaargh
-  def log_info(sql, name, ms)
-    super(sql, name, ms) unless sql.match(/^\s*SELECT\s+name\s+FROM\s+sqlite_master\s+/)
+  def execute(sql, name = nil) #:nodoc:
+    if sql.match(/^\s*SELECT\s+name\s+FROM\s+sqlite_master\s+/)
+      @connection.execute(sql)
+    else
+      log(sql, name) { @connection.execute(sql) }
+    end
   end
 end
