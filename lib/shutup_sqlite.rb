@@ -5,5 +5,5 @@ module ShutupSqlite
   end
 end
 
-require "activerecod_ext"
+require "activerecord_ext"
 require "version"
