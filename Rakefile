@@ -3,11 +3,11 @@ require 'rubygems/package_task'
 
 require 'lib/version'
 gemspec = Gem::Specification.new do |s|
-  s.name         = "shutup-sqlite"
+  s.name         = "shutup_sqlite"
   s.version      = ShutupSqlite::VERSION
   s.authors      = ["David Mike Simon"]
   s.email        = "david.mike.simon@gmail.com"
-  s.homepage     = "http://github.com/DavidMikeSimon/shutup-sqlite"
+  s.homepage     = "http://github.com/DavidMikeSimon/shutup_sqlite"
   s.summary      = "Filters out those annoying 'sqlite_master' log entries"
   s.description  = "This gem blocks those Rails log messages about 'sqlite_master' that fill up your development log"
   s.files        = `git ls-files .`.split("\n") - [".gitignore"]
