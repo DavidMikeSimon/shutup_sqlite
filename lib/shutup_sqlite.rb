@@ -1,5 +1,5 @@
 module ShutupSqlite
-  def annoying_query?(sql)
+  def self.annoying_query?(sql)
     # Aaaaargh, I hate these log entries SO MUCH
     sql.match(/^\s*SELECT\s+name\s+FROM\s+sqlite_master\s+/)
   end
