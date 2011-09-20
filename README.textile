@@ -12,5 +12,4 @@ Me too! This plugin filters them out, but still logs all other SQL queries norma
 
 h2. Installation
 
-Just add it to your Gemfile, then allow the now soothingly high relevance of your log
-files wash over you and relieve your stress.
+Just add it to your Gemfile, then allow the now soothingly high relevance of your log files wash over you and relieve your stress.
