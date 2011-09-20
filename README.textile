@@ -8,7 +8,7 @@ h2. Shut up, SQLite!
 
 Hate it when the above useless message fills up big portions of your Rails development log?
 
-Me too! This plugin filters them out, but still logs all other SQL queries normally.
+Me too! This plugin filters them out, but still logs all other SQL queries normally. It's compatible with both Rails 2 and 3.
 
 h2. Installation
 
